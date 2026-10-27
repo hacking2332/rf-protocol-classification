@@ -1,0 +1,27 @@
+# Dataset (too large for GitHub)
+*.pkl
+*.dat
+*.tar.bz2
+*.tar.gz
+*.h5
+data/
+
+# Model checkpoints
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# Python / Jupyter junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+venv/
+.venv/
+.env
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
